@@ -1,0 +1,17 @@
+const name = "nikk";
+let empId = 123;
+var age = 100;
+phoneNumber = 9999999999;
+let city;
+
+// name = "ironman";
+empId = 987;
+age = 101;
+phoneNumber = 8888888888;
+
+/*
+don't use var in the code
+*/
+// console.log(empId,age,phoneNumber);
+console.table([empId,age,phoneNumber,city])
+
