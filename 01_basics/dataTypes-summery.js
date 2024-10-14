@@ -30,3 +30,29 @@ const myFunction = function (){
 console.log(typeof myArray)
 console.log(typeof myObj)
 console.log(typeof myFunction)
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// stack (premitive) , heap (referance)
+
+let myName = "nikk" ;
+
+let myNickName = myName;
+
+myNickName = "Nikya";
+console.log(myName);
+console.log(myNickName);
+
+let userOne = {
+    email : "oes02.com",
+    age : 23
+
+}
+let usertWO = userOne;
+
+usertWO.email = "oes@google.com";
+
+console.log(userOne.email)
+console.log(usertWO.email)
